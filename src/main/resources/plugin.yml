@@ -1,0 +1,6 @@
+name: FirstJoinCommand
+version: 1.1
+api-version: 1.15
+description: fist join command.
+author: kubotan
+main: space.gorogoro.firstjoincommand.FirstJoinCommand
