@@ -1,3 +1,8 @@
 # config.yml
 firstJoinCommand:
   - money set %s 1000000
+# spawn location
+world: world
+x: 144.0
+y: 63.0
+z: 260.0

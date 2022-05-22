@@ -1,6 +1,24 @@
 name: FirstJoinCommand
 version: 1.1
 api-version: 1.15
-description: fist join command.
+description: first join command.
 author: kubotan
 main: space.gorogoro.firstjoincommand.FirstJoinCommand
+
+commands:
+  firstjoincommand:
+    description: Commands to manage your FirstJoinCommand.
+    usage: |
+      Use /help firstjoincommnad [subcommand] for more information
+      /<command> spawn add [playername] - Specify the location for the next login as the spawn point
+      /<command> spawn check [playername] - Check Specify location for next login as the spawn point
+      /<command> spawn delete [playername] - Delete Specify location for next login as the spawn point
+  firstjoincommand spawn add:
+    description: Specify the location for the next login as the spawn point
+    usage: /<command> location add [playername]
+  firstjoincommand spawn check:
+    description: Check Specify location for next login as the spawn point
+    usage: /<command> location delete [playername]
+  firstjoincommand spawn delete:
+    description: Delete Specify location for next login as the spawn point
+    usage: /<command> location delete [playername]
